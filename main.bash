@@ -10,7 +10,7 @@ function install_homebrew() {
 
 }
 
-function brew_installs()
+function brew_installs() {
   echo "===> brew_installs()"
   local app_list=(
     mc
