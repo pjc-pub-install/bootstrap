@@ -25,7 +25,7 @@ function brew_installs() {
   )
 
   local app
-  for app in ${app_list}; do
+  for app in ${app_list[@]}; do
     echo 
     echo "===> brew install ${app}"
     brew install ${app}
